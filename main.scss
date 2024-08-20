@@ -539,6 +539,7 @@ background-clip: text;
 
 .map-visit-container{
     position: absolute;
+    z-index: 4;
     width: 100%;
     height: 100%;
     display: none;

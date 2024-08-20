@@ -1497,8 +1497,19 @@ footer {
     height: 20%;
     display: none;
   }
+  .footer-bottom-site {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15%;
+  }
+  .footer-company-name {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .footer-company-name img {
-    height: 30%;
+    height: 20%;
   }
 }
 
@@ -2181,6 +2192,7 @@ main {
 
 .map-visit-container {
   position: absolute;
+  z-index: 4;
   width: 100%;
   height: 100%;
   display: none;
