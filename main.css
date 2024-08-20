@@ -1427,7 +1427,7 @@ footer {
         flex-wrap: wrap;
   }
   .footer-column {
-    width: 130px;
+    width: 20%;
   }
   .footer-column h3 {
     font-size: 14px;
@@ -1445,6 +1445,9 @@ footer {
   .footer-company-name {
     width: 35%;
     font-size: 14px;
+  }
+  .footer-column-five {
+    display: none;
   }
 }
 
@@ -1490,8 +1493,9 @@ footer {
   .footer-column-three {
     height: 40%;
   }
-  .footer-column-four, .footer-column-five {
+  .footer-column-four {
     height: 20%;
+    display: none;
   }
   .footer-company-name img {
     height: 30%;
@@ -2676,6 +2680,9 @@ main {
   .svg-picture-controls-box > div {
     border: 2px solid #8a8a8a;
     border-right: 1px solid #8a8a8a;
+  }
+  .box-country-name {
+    display: none;
   }
   .cards-events-container {
     width: 90%;

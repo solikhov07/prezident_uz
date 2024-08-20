@@ -943,6 +943,9 @@ background-clip: text;
         border: 2px solid $main-color4;
         border-right: 1px solid $main-color4;
     }
+    .box-country-name{
+        display: none;
+    }
     .cards-events-container{
         width: 90%;
     }

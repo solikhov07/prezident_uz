@@ -283,7 +283,7 @@ footer{
         flex-wrap: wrap;
     }
     .footer-column{
-        width: 130px;
+        width: 20%;
         h3{
             font-size: 14px;
         }
@@ -302,6 +302,9 @@ footer{
         width: 35%;
         font-size: 14px;
         
+    }
+    .footer-column-five{
+        display: none;
     }
 }
 
@@ -344,8 +347,9 @@ footer{
     .footer-column-three{
         height: 40%;
     }
-    .footer-column-four, .footer-column-five{
+    .footer-column-four{
         height: 20%;
+        display: none;
     }
     .footer-company-name{
         img{
