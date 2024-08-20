@@ -1,0 +1,135 @@
+.swiper-carousel-shadow{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+    background-color: $main-color;
+    filter: blur(17px) ;
+    opacity: 0.6;
+}
+.hero-news-carousel-text-box{
+z-index: 1;
+width: 100%;
+height: 50%;
+position: absolute;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+bottom: 0;
+span{
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+    text-align: start;
+}
+}
+
+.hero-main-news-text{
+width: 50%;
+text-align: start;
+cursor: pointer;
+}
+ .hero-main-news-text > span:hover{
+        color: rgb(218, 218, 218);
+ }
+
+.carousel-media-apps{
+margin-top: 20px;
+width: 30%;
+display: flex;
+justify-content: space-between;
+font-size: 35px;
+a{
+    text-decoration: none;
+color: white;
+}
+i{
+    cursor: pointer;
+}
+}
+
+.carousel-media-apps > p{
+    display: none;
+}
+
+@media only screen and (max-width: 1120px){
+.hero-main-news-text{
+    span{
+        font-size: 25px;
+        font-weight: 700;
+        width: 100%;
+        text-align: start;
+    }
+    }   
+    .carousel-media-apps{
+        width: 30%;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 945px){
+.hero-main-news-text{
+    width: 55%;
+    span{
+        font-size: 24px;
+        width: 100%;
+        text-align: start;
+    }
+    } 
+}
+
+@media only screen and (max-width: 840px){
+.hero-main-news-text{
+    width: 60%;
+    span{
+        font-size: 24px;
+        width: 100%;
+        text-align: start;
+    }
+    }   
+    .carousel-news-date{
+        span{
+            font-size: 25px;
+        font-weight: 500;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+.hero-main-news-text{
+    span{
+        font-size: 22px;
+        font-weight: 700;
+        width: 100%;
+        text-align: start;
+    }
+    }
+}
+
+@media only screen and (max-width: 685px){
+.hero-main-news-text{
+    width: 65%;
+    span{
+        font-size: 21px;
+    }
+}
+.carousel-media-apps{
+    margin-top: 0;
+}
+}
+@media only screen and (max-width: 600px) {
+    .carousel-media-apps{
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .carousel-media-apps > p{
+        display: block;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
