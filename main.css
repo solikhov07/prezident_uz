@@ -804,6 +804,9 @@ header {
   .header-right-side {
     width: 80%;
   }
+  .header-sidebar, .header-search-sidebar {
+    height: 150vh;
+  }
   .header-menu-box {
     height: 100%;
     width: 50px;
